@@ -5,9 +5,14 @@ body {
 }
 
 div {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.BarraNav,
+div.Carrito {
     background-color: rgb(204, 134, 109);
     display: flex;
-    justify-content: left;
+    align-items: center;
     padding-left: 25px;
 }
 
@@ -15,9 +20,15 @@ ul.ListaNav {
     display: inline-flex;
     justify-content: space-between;
     width: 250px;
+    padding: 0px 25px 0px 25px;
 }
 
 ul.ListaNav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+}
+
+div.ListaProductos {
+    background-color: rgba(255, 228, 196, 0.35);
+    padding: 25px;
 }
