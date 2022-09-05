@@ -32,3 +32,8 @@ div.ListaProductos {
     background-color: rgba(255, 228, 196, 0.35);
     padding: 25px;
 }
+
+.ItemCount {
+    display: flex;
+    justify-content: space-around;
+}
