@@ -35,5 +35,12 @@ div.ListaProductos {
 
 .ItemCount {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 5px 0px 5px 0px;
 }
+
+.InterfazProductos {
+    width: 150px;
+    display: grid;
+}
+
